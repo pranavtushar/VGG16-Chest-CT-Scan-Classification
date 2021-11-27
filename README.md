@@ -1,7 +1,4 @@
 # VGG16-Chest-CT-Scan-Classification
-
-
-# Tensorflow based Chest-CT-Scan-Classification
 # Objective
 To use Computer Vision techniques of Deep Learning to correctly identify & classify Chest CT Scan into:
   Adeno Carcinoma, Large Cell Carcinoma, Normal, and Squamous Cell Carcinoma.
