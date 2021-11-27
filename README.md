@@ -11,25 +11,42 @@ Metric used to justify model performance: Accuracy
 
 
 <p align="center">
-    <img width="700" height="300" src = 'https://github.com/pranavtushar/Chest-CT-Scan-Classification/blob/main/Images/Adeno%26largecell_Carcinoma.jpg'
+    <img width="700" height="300" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/adeno-carcinoma.png'
 </p>
 
 <p align="center">
-    <img width="700" height="300" src = 'https://github.com/pranavtushar/Chest-CT-Scan-Classification/blob/main/Images/Normal%26Squamouscell_Carcinoma.jpg'
+    <img width="700" height="300" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/large-cell-carcinoma.png'
+</p
+
+  <p align="center">
+    <img width="700" height="300" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/normal.png'
+</p>
+    <p align="center">
+    <img width="700" height="300" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/squamous-cell-carcinoma.png'
 </p>
 
 To use these images in our Deep Learning Model, we need to pre-process these images first.
 
 <p align="center">
-    <img width="750" height="200" src = 'https://github.com/pranavtushar/Chest-CT-Scan-Classification/blob/main/Images/Data_Preprocessing.jpg'
+    <img width="750" height="200" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/pre-processing.png'
 </p>
   
 Data Augmentation is used to increase the size of training dataset, and for improving deep learning robustness.
   <p align="center">
-    <img width="750" height="200" src = 'https://github.com/pranavtushar/Chest-CT-Scan-Classification/blob/main/Images/Data_Augmentation.jpg'
+    <img width="750" height="200" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/data-augmentation.png'
 </p>
-
+<!-- <p> Model Architecture </p>
     
-## Conclusion
+   <p align="center">
+    <img width="750" height="200" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/model.png'
+</p> -->
+ <p> Evaluation Parameters</p>
+     
+   <p align="center">
+    <img width="750" height="200" src = 'https://github.com/pranavtushar/VGG16-Chest-CT-Scan-Classification/blob/main/Images/evaluation-parameters.png'
+</p> 
+          
+          
+<p> Conclusion </p>
     
 In this project, I have used VGG 16 Convolutional Neural Network Model to classify the Chest CT-Scan of a subject into 4 different classess. Accuracy of the model can be increased by using a increasing the size of the dataset,or by generating synthetic datasets using GANs, by tuning the hyperparameters and by using state of the art CNN models like Attention based CNN, Vision Transformers, etc.
