@@ -5,6 +5,8 @@ To use Computer Vision techniques of Deep Learning to correctly identify & class
   
 I have build a CNN model that would classify the chest CT scan dataset into 4 categories mentioned above. I have used VGG-16 model architecture and weights to train the model for this multi-classification problem. 
 Metric used to justify model performance: Accuracy
+ 
+ ## Dataset : [Link to Dataset](https://www.kaggle.com/mohamedhanyyy/chest-ctscan-images)
 
 
 <p align="center">
